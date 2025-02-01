@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 11px;
+  padding-left: 40px;
+  background-color: antiquewhite;
+}
+.logo{
+  color: rgb(76, 42, 5);
+  font-size: 28px;
+
+}
+nav ul li{
+  display: inline-block;
+  padding: 17px;
+ 
+}
+nav ul li a{
+  color: rgb(195, 113, 86);
+  text-decoration: wavy;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+nav ul li a:hover{
+  color: brown;
+  transition: .3s;
+}
+nav{
+  position: sticky; top: 0;
+background: rgba(211, 187, 187, 0.5);
+}
+.hero{
+background: linear-gradient(rgb(209, 186, 186),rgb(235, 230, 230));
+  display: flex;
+  gap: 10px;
+ 
+  height:100vh
+  
+}
+.about{
+  padding-top: 35vh;
+flex-grow: 1.7;
+padding-left: 16vh;
+
+}
+.about .intro{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 19px;
+color: rgb(175, 138, 107);
+font-weight: bold;
+}
+
+.about .name {
+font-size: 100px;
+font-family: font1;
+padding-top: 1.6vh;
+font-family: "Volkhov", serif;
+color: rgb(154, 118, 88);
+font-weight: bold;
+}
+.skills{
+  font-size: 34px;
+  padding-top: 1vh;
+  font-family: "Volkhov", serif;
+  color: rgb(154, 118, 88);
+  font-weight: bold;
+}
+.pic{
+  flex-grow: 2;
+ padding-top: 25vh;
+ padding-left: 25vh;
+ padding-right: 10vh;
+ padding-bottom: 10vh;
+ 
+}
+.circle{
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 45%;
+  height: 56vh;
+  background: radial-gradient(white,rgb(151, 97, 97));
+  border-color: rgb(205, 175, 159);
+  border-image-outset: 0ch;
+border-collapse: collapse;
+}
+.logo{
+  padding-top: 2vh;
+  display: flex;
+  padding-right: 0rcap;
+  align-content: space-evenly;
+}
+.links{
+  padding-right: 5vh;
+}
+.all{
+  height: 120vh;
+  background: linear-gradient(rgb(228, 209, 209) ,rgb(230, 230, 224));
+
+}
+.head{
+  padding: 10vh;
+  font-family: "Volkhov", serif;
+  color: rgb(120, 95, 75);
+  font-size: 50px;
+  font-weight: bolder;
+}
+.detail{
+  padding-left: 15vh;
+  padding-right: 50vh;
+  font-size: 23px;
+  font-family: "Volkhov", serif;
+  color: rgb(143, 110, 82);
+}
+.hea{
+  padding-top: 10vh;
+  font-family: "Volkhov", serif;
+  color: rgb(114, 90, 70);
+  font-size: 50px;
+  font-weight: bolder;
+}
+.skillpic{
+  display: flex;
+  padding-left: 55vh;
+  padding-top: 7vh;
+}
+.html{
+  padding-right: 10vh;
+  color: chocolate;
+}
+.python{
+  padding-left: 10vh;
+  color: coral;
+}
+.css{
+  color: coral;
+}
+.contact-container h1 {
+  padding-top: 10vh;
+  font-family: "Volkhov", serif;
+  color: rgb(114, 90, 70);
+  font-size: 30px;
+  font-weight: bolder;
+}
